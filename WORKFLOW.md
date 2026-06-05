@@ -37,3 +37,24 @@ Why:
 * Every feature or fix begins with a GitHub Issue
 * Issues contain labels, descriptions, and assignees
 * Issues are closed when the related PR is merged
+
+## Python Workflow
+
+### Execute
+
+python scripts/data_workflow.py
+
+### Functions
+
+ingest_data()
+Loads raw CSV data.
+
+process_data()
+Cleans and transforms data.
+
+output_results()
+Saves processed results and prints execution status.
+
+### Extending
+
+Replace sample.csv with new datasets and update transformation logic as needed.
